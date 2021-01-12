@@ -1,0 +1,85 @@
+/* affecting specific changes to pieces of the page
+- the color of something
+- font size
+- border design
+*/
+
+header {
+  background-color: aliceblue;
+  border: 1px solid black;
+}
+
+section {
+  border: 1px solid black;
+}
+
+#article-one section:first-child {
+  background-color: aqua;
+}
+
+#article-one section:nth-child(2) {
+  background-color: black;
+}
+
+#article-one section:last-child {
+  background-color: brown;
+}
+
+#article-two section:first-child {
+  background-color: chartreuse;
+}
+
+#article-two section:nth-child(2) {
+  background-color: coral;
+}
+
+#article-two section:nth-child(3) {
+  background-color: cornflowerblue;
+}
+
+#article-two section:last-child {
+  background-color: darkgoldenrod;
+}
+
+footer {
+  background-color: darkolivegreen;
+  border: 1px solid black;
+}
+
+@media (min-width: 768px){
+  header {
+    background-color: darkolivegreen;
+  }
+  
+  #article-one section:first-child {
+    background-color: darkgoldenrod;
+  }
+  
+  #article-one section:nth-child(2) {
+    background-color: cornflowerblue;
+  }
+  
+  #article-one section:last-child {
+    background-color: coral;
+  }
+  
+  #article-two section:first-child {
+    background-color: orangered;
+  }
+  
+  #article-two section:nth-child(2) {
+    background-color: brown;
+  }
+  
+  #article-two section:nth-child(3) {
+    background-color: black;
+  }
+  
+  #article-two section:last-child {
+    background-color: aqua;
+  }
+  
+  footer {
+    background-color: aliceblue;
+  }
+}
