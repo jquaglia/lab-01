@@ -13,8 +13,9 @@ section {
 
 main {
   display: grid;
+  height: 980px;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 150px 125px 125px 250px 250px;
+  grid-template-rows: 150px 1fr 1fr 2fr 2fr 80px;
 }
 
 section:first-child {
@@ -49,7 +50,7 @@ body{
 }
 
 main {
-  grid-template-columns: 200px 190px 190px 190px 190px;
+  grid-template-columns: 200px 1fr 1fr 1fr 1fr;
   grid-template-rows: 200px 250px 150px;
 }
 
@@ -73,7 +74,5 @@ footer{
   grid-column: 2/6;
   height: 150px;
 }
-
-
 
 }
